@@ -185,12 +185,14 @@ html{
     padding: 64px 12px;
 }
 
-#content .ticket{
-    list-style-type: none;
+#content .tour-contain{
     max-width: 800px;
+    margin: 36px auto 0;
+}
+
+#content .ticket{
     margin-top: 36px;
-    margin-left: auto;
-    margin-right: auto;
+    list-style-type: none;
     background-color: #fff;
     color: #757575;
     font-size: 15px;
@@ -216,6 +218,59 @@ html{
     padding: 3px 8px;
     border-radius: 50%;
     margin-top: -2px;
+}
+/* place */
+.place{
+    padding: 32px 0;
+    margin: 0 -8px;
+}
+
+.place .place-section{
+    width: 33.333333%;
+    float: right;
+    padding: 0 8px;
+}
+
+.place .place-picture{
+    width: 100%;
+    display: block;
+}
+
+.place .place-content{
+    padding: 0 16px;
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+}
+
+.place .place-head{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.place .place-time{
+    opacity: 0.6;
+    padding-bottom: 15px ;
+}
+
+.place .place-description{
+    padding-bottom: 15px ;
+    line-height: 1.6;
+}
+
+.place .buy-buttom{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 11px 16px;
+    margin-bottom: 15px;
+}
+
+.place .buy-buttom:hover{
+    background-color: #ccc;
+    color: #000;
 }
 
 #footer{
