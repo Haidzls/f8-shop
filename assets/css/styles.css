@@ -235,6 +235,9 @@ html{
     width: 100%;
     display: block;
 }
+.place .place-picture:hover{
+    opacity: 0.6;
+}
 
 .place .place-content{
     padding: 0 16px;
