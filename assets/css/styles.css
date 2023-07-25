@@ -8,14 +8,36 @@ html{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-
+/* commom */
 .clear{
     clear: both;
 }
 
 .white-text{
-    color: #fff;
+    color: #fff !important;
 }
+
+.text-center{
+    text-align: center;
+}
+
+.row{
+    margin-left: -8px;
+    margin-right:  -8px;
+    padding: 32px 0;
+}
+
+.col{
+    float: left;
+    padding: 0 8px;
+}
+
+.col-third{
+    width: 33.333333%;
+}
+
+
+/* commom */
 
 #header{
     z-index: 1;
@@ -162,15 +184,6 @@ html{
     line-height: 1.4;
 }
 
-#content .member-list{
-    padding: 32px 0;
-}
-
-#content .member{
-    float: left;
-    width: 33.33333%
-}
-
 #content .member-picture{
     width: 60%;
     border-radius: 4px;
@@ -220,49 +233,39 @@ html{
     margin-top: -2px;
 }
 /* place */
-.place{
-    padding: 32px 0;
-    margin: 0 -8px;
-}
 
-.place .place-section{
-    width: 33.333333%;
-    float: right;
-    padding: 0 8px;
-}
-
-.place .place-picture{
+.place-picture{
     width: 100%;
     display: block;
 }
-.place .place-picture:hover{
+.place-picture:hover{
     opacity: 0.6;
 }
 
-.place .place-content{
+.place-content{
     padding: 0 16px;
     background-color: #fff;
     color: #000;
     font-size: 15px;
 }
 
-.place .place-head{
+.place-head{
     font-size: 15px;
     font-weight: 600;
     padding: 15px 0;
 }
 
-.place .place-time{
+.place-time{
     opacity: 0.6;
     padding-bottom: 15px ;
 }
 
-.place .place-description{
+.place-description{
     padding-bottom: 15px ;
     line-height: 1.6;
 }
 
-.place .buy-buttom{
+.buy-buttom{
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -271,7 +274,7 @@ html{
     margin-bottom: 15px;
 }
 
-.place .buy-buttom:hover{
+.buy-buttom:hover{
     background-color: #ccc;
     color: #000;
 }
