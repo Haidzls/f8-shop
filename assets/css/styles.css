@@ -326,6 +326,13 @@ html{
     margin-top: 8px;
 }
 
+.send-buttom:hover{
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+    border: solid 2px #ccc;
+}
+
 #footer{
 
 }
