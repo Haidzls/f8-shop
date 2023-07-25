@@ -32,10 +32,17 @@ html{
     padding: 0 8px;
 }
 
+.col-half{
+    width: 50%;
+}
+
 .col-third{
     width: 33.333333%;
 }
 
+.col-full{
+    width: 100%;
+}
 
 /* commom */
 
@@ -277,6 +284,46 @@ html{
 .buy-buttom:hover{
     background-color: #ccc;
     color: #000;
+}
+
+.contact-section{
+   max-width: 800px;
+   margin: auto;
+   padding: 64px 0;
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.contact-info p i{
+    display: inline-block;
+    width: 30px;
+}
+
+.contact-form-div{
+    padding: 0;
+}
+
+.contact-form {
+    font-size: 14px;
+    padding-bottom: 8px;
+    color: #ccc;
+}
+
+.contact-form .form-control{
+    padding: 8px;
+    width: 100%;
+}
+
+.send-buttom{
+    float: right;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 8px;
 }
 
 #footer{
